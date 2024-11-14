@@ -1,3 +1,5 @@
 fun main() {
-    println("Hello Kotlin")
+    //commissionDemo()
+    //likeAmountMessageDemo()
+    discountDemo()
 }
