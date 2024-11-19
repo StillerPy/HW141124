@@ -1,5 +1,5 @@
 fun main() {
-    //commissionDemo()
-    //likeAmountMessageDemo()
+    commissionDemo()
+    likeAmountMessageDemo()
     discountDemo()
 }
