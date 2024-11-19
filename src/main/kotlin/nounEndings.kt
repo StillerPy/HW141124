@@ -2,7 +2,7 @@ fun getLikeAmountMessage(likes: Int): String {
     if (likes <= 0) {
         throw IllegalArgumentException("Negative or zero amount of likes")
     }
-    if ((likes % 10) == 1 && likes != 11) {
+    if ((likes % 10) == 1 && ((likes % 100) != 11)) {
         return "Понравилось $likes человеку"
     }
     return "Понравилось $likes людям"
